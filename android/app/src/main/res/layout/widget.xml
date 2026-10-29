@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Barra «Pregunta a Claude»: la barra abre el asistente rápido con el teclado; el micrófono, escuchando -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/barra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_fondo"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="8dp"
+    android:paddingEnd="6dp">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_chispa" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="4dp"
+        android:text="Pregunta a Claude"
+        android:textColor="@color/apagado"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/micro"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:background="@drawable/widget_boton"
+        android:contentDescription="Hablar"
+        android:padding="11dp"
+        android:src="@drawable/ic_micro" />
+</LinearLayout>

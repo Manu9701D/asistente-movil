@@ -1,0 +1,24 @@
+[Unit]
+Description=Asistente móvil (Claude Code para la app de Android)
+After=network-online.target tailscaled.service
+Wants=network-online.target
+
+[Service]
+User=asistente
+Group=asistente
+WorkingDirectory=/opt/asistente-movil/servidor
+Environment=HOST=100.109.14.13
+Environment=PORT=8790
+ExecStart=/usr/bin/node index.mjs
+Restart=on-failure
+RestartSec=5
+Nice=15
+CPUQuota=100%
+MemoryMax=3G
+ProtectSystem=strict
+ReadWritePaths=/home/asistente /opt/asistente-movil /tmp
+PrivateTmp=true
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

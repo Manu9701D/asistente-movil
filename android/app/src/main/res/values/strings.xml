@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Asistente</string>
+    <string name="widget_descripcion">Pregunta a Claude escribiendo o hablando</string>
+    <string name="atajo_hablar">Hablar</string>
+    <string name="atajo_escribir">Escribir</string>
+    <string name="atajo_nueva">Nueva conversación</string>
+    <string name="mosaico">Claude</string>
+    <string name="compartir">Preguntar a Claude</string>
+    <string name="control">Control de pantalla de Claude</string>
+    <string name="control_descripcion">Deja que Claude lea la pantalla y toque, escriba y deslice por ti cuando se lo pides. Solo actúa cuando se lo pides desde el Asistente, y siempre puedes pararlo con el aviso de arriba.</string>
+</resources>

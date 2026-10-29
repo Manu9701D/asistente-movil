@@ -1,0 +1,11 @@
+{
+  "name": "asistente-movil-servidor",
+  "private": true,
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": { "start": "node index.mjs" },
+  "dependencies": {
+    "node-pty": "^1.0.0",
+    "ws": "^8.18.0"
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android Auto: pantalla propia (Pantalla.kt). Con <uses name="notification" /> Android Auto abre la app
+     como mensajería y no deja llegar a la pantalla -->
+<automotiveApp>
+    <uses name="template" />
+</automotiveApp>

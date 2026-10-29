@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- La conexión con el servidor va por Tailscale (cifrada con WireGuard): ws:// sin TLS por encima -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

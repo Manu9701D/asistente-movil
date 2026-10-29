@@ -1,0 +1,16 @@
+node_modules/
+*.log
+.env
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.apk
+*.keystore
+*.jks
+
+# Datos locales (servidor, rutas)
+CLAUDE.local.md
+tools/servidor.env

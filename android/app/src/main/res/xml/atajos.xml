@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Atajos al mantener pulsado el icono de la app -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="hablar" android:icon="@drawable/atajo_micro" android:shortcutShortLabel="@string/atajo_hablar">
+        <intent android:action="com.mnldz.asistente.HABLAR" android:targetPackage="com.mnldz.asistente" android:targetClass="com.mnldz.asistente.AsistenteRapido" />
+    </shortcut>
+    <shortcut android:shortcutId="escribir" android:icon="@drawable/atajo_escribir" android:shortcutShortLabel="@string/atajo_escribir">
+        <intent android:action="com.mnldz.asistente.ESCRIBIR" android:targetPackage="com.mnldz.asistente" android:targetClass="com.mnldz.asistente.AsistenteRapido" />
+    </shortcut>
+    <shortcut android:shortcutId="nueva" android:icon="@drawable/atajo_nueva" android:shortcutShortLabel="@string/atajo_nueva">
+        <intent android:action="com.mnldz.asistente.NUEVA" android:targetPackage="com.mnldz.asistente" android:targetClass="com.mnldz.asistente.MainActivity" />
+    </shortcut>
+</shortcuts>
